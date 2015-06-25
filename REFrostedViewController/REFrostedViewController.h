@@ -53,6 +53,8 @@ typedef NS_ENUM(NSInteger, REFrostedViewControllerLiveBackgroundStyle) {
  * 1.0 is completely black. 0.0 means the background does not dim at all.
  * The default value is 0.3.
  */
+
+//
 @property (assign, readwrite, nonatomic) BOOL visible;
 @property (assign, readwrite, nonatomic) CGFloat backgroundFadeAmount;
 @property (strong, readwrite, nonatomic) UIColor *blurTintColor; // Used only when live blur is off
