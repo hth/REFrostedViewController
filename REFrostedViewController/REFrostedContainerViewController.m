@@ -41,7 +41,7 @@
 
 @interface REFrostedViewController ()
 
-@property (assign, readwrite, nonatomic) BOOL visible;
+
 @property (assign, readwrite, nonatomic) CGSize calculatedMenuViewSize;
 
 @end

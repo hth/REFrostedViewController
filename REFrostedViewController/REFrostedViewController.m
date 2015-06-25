@@ -35,7 +35,6 @@
 @property (assign, readwrite, nonatomic) CGFloat imageViewWidth;
 @property (strong, readwrite, nonatomic) UIImage *image;
 @property (strong, readwrite, nonatomic) UIImageView *imageView;
-@property (assign, readwrite, nonatomic) BOOL visible;
 @property (strong, readwrite, nonatomic) REFrostedContainerViewController *containerViewController;
 @property (strong, readwrite, nonatomic) UIPanGestureRecognizer *panGestureRecognizer;
 @property (assign, readwrite, nonatomic) BOOL automaticSize;
